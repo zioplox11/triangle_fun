@@ -1,0 +1,15 @@
+<div class='triangle'>
+
+<% @triangle.parse_triangle .each_with_index do |tri_arr, row| %>
+  <p>
+    <% tri_arr.each_with_index do |val, col| %>
+        <span class=<%= "largest_path" if @largest_path[row][col] %>>
+          <%= val %>
+        </span>
+    <% end %>
+  </p>
+<% end%>
+
+<p class="final_sum"><%= @triangle.final_sum  %>
+
+</div>
