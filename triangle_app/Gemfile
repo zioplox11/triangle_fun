@@ -60,6 +60,3 @@ end
 gem 'httparty'
 
 gem 'rails_12factor', group: :production
-
-gem 'rails3_serve_static_assets', github: 'Heroku/rails3_serve_static_assets'
-
