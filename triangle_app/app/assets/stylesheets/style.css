@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(95 , 118, 197, .4);
+  color: red;
+}
+
+#triangle {
+    margin: 0 auto;
+    color: rgba(221,  230, 204, 1);
+
+}
+
+/*.best_answer {
+
+    color: rgba(100,  100,  13, 1);
+}*/
+
+p{
+  font-size: 9px;
+  text-align: center;
+
+}
+
+.largest_path{
+    color: rgba(40,  100,  13, 1);
+  font-size: 10px;
+}
+
+.final_sum{
+  color: green;
+  font-size: 80px;
+}
